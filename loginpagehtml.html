@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="loginpagecss.css">
+    <script>
+        function loginMessage() {
+            alert("Login button clicked!");
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <h1>Login</h1>
+            <div class="inputbox">
+                <input type="text" placeholder="username" required>
+                <i class='bx bx-user'></i>
+            </div>
+            <div class="inputbox">
+                <input type="password" placeholder="password" required>
+                <i class='bx bxs-lock'></i>
+            </div>
+            <div>
+                <button type="submit" class="button" onclick="loginMessage()">Login</button>
+            </div>
+            <div>
+                <a href="signuppagehtml.html" class="signup" style="color: aliceblue;">signup?</a>
+            </div>
+        </form>
+</body>
+
+</html>
